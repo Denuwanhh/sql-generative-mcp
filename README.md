@@ -1,4 +1,4 @@
-# Generative Tool: Database Natural Language Query MCP Server
+# Generative SQL MCP
 
 An interactive Model Context Protocol (MCP) server that translates plain English queries into SQLAlchemy operations, queries a PostgreSQL database under strict read-only execution modes, and returns the query results formatted as structured XML.
 
