@@ -25,7 +25,9 @@ class QueryGenerator:
         
         prompt = f"""You are an expert Python data analyst. Given the following PostgreSQL database schema (DDL):
 
+<database_ddl>
 {ddl}
+</database_ddl>
 
 The user wants to perform this request:
 <user_request>
